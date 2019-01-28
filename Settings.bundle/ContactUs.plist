@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>New item</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Logistic Infotech Pvt Ltd.</string>
+		</dict>
+        <dict>
+            <key>DefaultValue</key>
+            <string>+91 - 281 - 2362361</string>
+            <key>Key</key>
+            <string>kContactno</string>
+            <key>Type</key>
+            <string>PSTitleValueSpecifier</string>
+            <key>Title</key>
+            <string>Contact no: </string>
+        </dict>
+        <dict>
+            <key>DefaultValue</key>
+            <string>info@logisticinfotech.com</string>
+            <key>Key</key>
+            <string>kContactno</string>
+            <key>Type</key>
+            <string>PSTitleValueSpecifier</string>
+            <key>Title</key>
+            <string>Email: </string>
+        </dict>
+	</array>
+</dict>
+</plist>

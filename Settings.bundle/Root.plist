@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>Title</key>
+	<string>LISettingBundleDemo</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>User Information</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>Test User</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Full Name</string>
+			<key>Key</key>
+			<string>kUserName</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>IsSecure</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Address</string>
+			<key>Key</key>
+			<string>kUserAddress</string>
+			<key>AutocorrectionType</key>
+			<string>Default</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>DefaultValue</key>
+			<string>Rajkot</string>
+			<key>IsSecure</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Build Detail</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>1.0</string>
+			<key>Key</key>
+			<string>kVersion</string>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Version</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>2</string>
+			<key>Key</key>
+			<string>kBuildNumber</string>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Build</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Font Setting</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Font Family</string>
+			<key>DefaultValue</key>
+			<string>Arial</string>
+			<key>Key</key>
+			<string>kFontFamily</string>
+			<key>Values</key>
+			<array>
+				<string>Arial</string>
+				<string>Chalkduster</string>
+				<string>Verdana</string>
+				<string>Zapfino</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Arial</string>
+				<string>Chalkduster</string>
+				<string>Verdana</string>
+				<string>Zapfino</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Font Size</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Title</key>
+			<string>FontSize</string>
+			<key>Key</key>
+			<string>kFontSize</string>
+			<key>MaximumValue</key>
+			<integer>50</integer>
+			<key>MinimumValue</key>
+			<integer>10</integer>
+			<key>DefaultValue</key>
+			<integer>15</integer>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Other</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Key</key>
+			<string>kDarkThene</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Dark Theme</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>kContact</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Contact Us</string>
+			<key>File</key>
+			<string>ContactUs</string>
+		</dict>
+	</array>
+</dict>
+</plist>
